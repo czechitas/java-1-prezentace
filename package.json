@@ -1,0 +1,33 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev-02": "slidev lekce-02.md",
+    "build-02": "slidev build lekce-02.md",
+    "export-02": "slidev export lekce-02.md --output lekce-02.pdf",
+    "dev-03": "slidev lekce-03.md",
+    "build-03": "slidev build lekce-03.md",
+    "export-03": "slidev export lekce-03.md --output lekce-03.pdf",
+    "dev-04": "slidev lekce-04.md",
+    "build-04": "slidev build lekce-04.md",
+    "export-04": "slidev export lekce-04.md --output lekce-04.pdf",
+    "dev-05": "slidev lekce-05.md",
+    "build-05": "slidev build lekce-05.md",
+    "export-05": "slidev export lekce-05.md --output lekce-05.pdf",
+    "dev-06": "slidev lekce-06.md",
+    "build-06": "slidev build lekce-06.md",
+    "export-06": "slidev export lekce-06.md --output lekce-06.pdf",
+    "dev-07": "slidev lekce-07.md",
+    "build-07": "slidev build lekce-07.md",
+    "export-07": "slidev export lekce-07.md --output lekce-07.pdf",
+    "dev-10": "slidev lekce-10.md",
+    "build-10": "slidev build lekce-10.md",
+    "export-10": "slidev export lekce-10.md --output lekce-10.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.46.3",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "playwright-chromium": "^1.30.0"
+  }
+}
