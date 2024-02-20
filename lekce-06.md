@@ -9,23 +9,10 @@ fonts:
 <div class="white flex flex-col mt-48 text-2xl font-light gap-2">
     <div class="font-bold text-6xl">Java 1 • lekce 6</div>
     <div>Filip Jirsák</div>
-    <div>14. 3. 2023</div>
+    <div>20. 2. 2024</div>
     <div>online</div>
 </div>
 
-
----
-
-# Typy „tříd“
-
-* class, třída – obsahuje data i kód
-  * dědit lze pouze od jedné třídy
-* interface, rozhraní – definuje jen kontrakt, tj. dohodu, jaké metody má třída implementovat
-  * lze implementovat více rozhraní
-* enum – speciální typ třídy, obsahuje výčet hodnot (např. `JARO`, `LETO`, `PODZIM`, `ZIMA`)
-* record – speciální typ třídy, obsahuje jenom data (používá se v podobných případech, jako Java Beany)
-* anotace – speciální typ rozhraní, umožňuje přidávat uživatelské značky k třídám, metodám, fieldům, parametrům metod, balíčkům
-* *abstraktní třída* – třída, která některé metody nemá implementované (jsou abstraktní)
 
 ---
 
@@ -95,3 +82,16 @@ fonts:
 * seznam dvojic *klíč: hodnota*
 * lze rychle hledat podle klíče
 * nejpoužívanější `HashMap`
+
+---
+
+# Typy „tříd“
+
+* class, třída – obsahuje data i kód
+  * dědit lze pouze od jedné třídy
+* interface, rozhraní – definuje jen kontrakt, tj. dohodu, jaké metody má třída implementovat
+  * lze implementovat více rozhraní
+* enum – speciální typ třídy, obsahuje výčet hodnot (např. `JARO`, `LETO`, `PODZIM`, `ZIMA`)
+* record – speciální typ třídy, obsahuje jenom data (používá se v podobných případech, jako Java Beany)
+* anotace – speciální typ rozhraní, umožňuje přidávat uživatelské značky k třídám, metodám, fieldům, parametrům metod, balíčkům
+* *abstraktní třída* – třída, která některé metody nemá implementované (jsou abstraktní)
