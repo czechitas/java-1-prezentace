@@ -9,7 +9,7 @@ fonts:
 <div class="white flex flex-col mt-48 text-2xl font-light gap-2">
     <div class="font-bold text-6xl">Java 1 • lekce 7</div>
     <div>Filip Jirsák</div>
-    <div>28. 3. 2023</div>
+    <div>27. 2. 2024</div>
     <div>online</div>
 </div>
 
