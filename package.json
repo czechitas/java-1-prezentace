@@ -20,9 +20,18 @@
     "dev-07": "slidev lekce-07.md",
     "build-07": "slidev build lekce-07.md",
     "export-07": "slidev export lekce-07.md --output lekce-07.pdf",
+    "dev-08": "slidev lekce-08.md",
+    "build-08": "slidev build lekce-08.md",
+    "export-08": "slidev export lekce-08.md --output lekce-08.pdf",
+    "dev-09": "slidev lekce-09.md",
+    "build-09": "slidev build lekce-09.md",
+    "export-09": "slidev export lekce-09.md --output lekce-09.pdf",
     "dev-10": "slidev lekce-10.md",
     "build-10": "slidev build lekce-10.md",
-    "export-10": "slidev export lekce-10.md --output lekce-10.pdf"
+    "export-10": "slidev export lekce-10.md --output lekce-10.pdf",
+    "dev-11": "slidev lekce-11.md",
+    "build-11": "slidev build lekce-11.md",
+    "export-11": "slidev export lekce-11.md --output lekce-11.pdf"
   },
   "dependencies": {
     "@slidev/cli": "^0.46.3",

@@ -7,9 +7,9 @@ fonts:
 ---
 
 <div class="white flex flex-col mt-48 text-2xl font-light gap-2">
-    <div class="font-bold text-6xl">Java 1 • lekce 10</div>
+    <div class="font-bold text-6xl">Java 1 • lekce 9</div>
     <div>Filip Jirsák</div>
-    <div>19. 3. 2024</div>
+    <div>12. 3. 2024</div>
     <div>online</div>
 </div>
 
@@ -73,41 +73,3 @@ objectMapper.writeValue(file, data);
 ```
 
 Při čtení je nutné specifikovat, jaký typ dat (třídu) očekáváme.
-
----
-
-# Výjimky (exceptions)
-
-* Pokud dojde k chybě (např. neexistuje soubor, který chceme číst), dojde k tzv. „vyhození výjimky“ (throw exception).
-* Výjimka probublává zpět aplikací, dokud nenarazí na místo, kde je zachycena a zpracována.
-* Pokud není zachycena nikde, aplikace se ukončí.
-
-## Zpracování výjimky
-```java
-try {
-  // kód, kde může dojít k výjimce
-} catch (Exception e) {
-  // zpracování výjimky
-}
-```
-
-## Vyhození výjimky
-```java
-throw new Exception();
-// Nebo libovolný jiný typ výjimky.
-```
-
----
-
-# Typy výjimek
-
-Všechny výjimky: `java.lang.Throwable`
-
-* **Kontrolované (checked)**: `java.lang.Exception`
-  * Metoda musí deklarovat pomocí `throws`, které kontrolované výjimky může vyhazovat
-  * Volající musí výjimku zpracovat nebo deklarovat, že ji vyhazuje dál
-* **Nekontrolované (unchecked)**: `java.lang.RuntimeException`
-  * Mohou být vyhozeny kdykoli
-* **Chyby (error)**: `java.lang.Error`
-  * Např. nedostatek paměti, poškozený program apod.
-  * V aplikaci se obvykle nezachycují, protože se s nimi nedá mnoho udělat
